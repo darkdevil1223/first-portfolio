@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    /* position: absolute; */
+    background-color:rgb(198, 191, 191);
+    width: 10vw;
+    font-family: 'Caveat', cursive;
+    height: 100vh;
+    padding: 57px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar nav{
+    padding: 25px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocointainer{
+    /* background-color: aliceblue; */
+    height: 66vh;
+    width: 80vw;
+    margin: 147px auto;
+    justify-content: space-around;
+
+}
+
+.Hello{
+    font-size: 75px;
+
+}
+.About{
+    font-size: 50px;
+
+}
+.Detail{
+    margin: 10px;
+    font-size: 25px;
+}
+.buttons{
+    margin-top: 32px;
+}
+.btn{
+    padding: 14px;
+    border-radius: 40px;
+    color: azure;
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    box-shadow: 0 0 10px 0 blueviolet inset;
+    border-radius: 40px;
+    /* background-color: azure; */
+    /* color: blueviolet; */
+}
+
+.btn-sm{
+    font-size: 17px;
+    padding: 10px 13px;
+    margin: 5px 0;
+    
+}
+
+.devpics img{
+    /* width: 196px; */
+    height: 60vh;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact{
+    padding-top: 141px;
+}
+.contact form{
+    margin-left: 64px; 
+    /* font-family: 'Caveat', cursive; */
+}
+.contact h1{
+    width: 80vw;
+    /* margin: 147px auto; */
+    justify-content: space-around;    
+    /* text-align:center; */
+    margin-left: 55px;  
+}
+.contact div{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 15px;
+    color: gray;
+    margin: 0 5px;
+}
+.contact form div input{
+    display: flex;
+    flex-direction: column;
+}
+.blogitem{
+    margin: 20px;
+    
+}
+.blogcontainer h1{
+    margin: 25px;
+
+}
+.blogitem p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+
+}
+.about p{
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    margin: 20px;
+}
+.skillcointainer{
+    margin: 20px;
+}
+.skill{
+    width: 302px;
+    height: 9px;
+    background-color: red;
+}
+.fifty{
+    width: 151px;
+    height: 9px;
+    background-color:orange;
+
+}
+.t5{
+    width: 75px;
+    height: 9px;
+    background-color: yellow;
+
+}
+.eighty{
+    width: 205px;
+    height: 9px;
+    background-color:purple;
+
+}
+.menu{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: -81px;
+}
+.cross{
+    position: absolute;
+    cursor: pointer;
+    top: 1px;
+    left: 331px;
+
+}
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}

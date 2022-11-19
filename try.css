@@ -29,7 +29,7 @@
     margin: 10px;
     position: absolute;
     right: 0px;
-    top: 55px;
+    top: 84px;
 }
 .list a{
     margin: 20px;
@@ -71,6 +71,10 @@
     transition: 1s ease;
     transform:scale(1.1) ;
     
+}
+.picture::after{
+    transition: 1s ease;
+    transform: scale(0.0);
 }
 .Hello{
     margin: 2px;
